@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <% include header %>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+
+    <% if (connected){%>
+      <p>Vous etes connectez!</p>
+      <p>idUser : <%= idUser%></p>
+    <%}%>
+
+
+    <div>
+      <a href="/personne">personne</a>
+      <a href=""></a>
+      <a href=""></a>
+    </div>
+  </body>
+</html>
